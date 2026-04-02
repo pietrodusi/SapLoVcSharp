@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "Bash(dotnet build:*)",
+      "Bash(dotnet test:*)",
+      "Bash(dotnet ef migrations add:*)",
+      "Bash(sqlite3:*)",
+      "Bash(dir:*)",
+      "Bash(npm install:*)",
+      "Bash(dotnet ef database update:*)",
+      "Bash(dotnet add:*)",
+      "Bash(taskkill:*)",
+      "Bash(del \"C:\\Users\\dusip\\source\\repos\\SapLoVcSharp\\SapLoVcSharp.Data\\Models\\ProductMatrixColumnEntity.cs\")",
+      "Bash(git status:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
